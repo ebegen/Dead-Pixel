@@ -13,6 +13,7 @@
 		B4DA96891A1A786A000F6259 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4DA96881A1A786A000F6259 /* Images.xcassets */; };
 		B4DA968C1A1A786B000F6259 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4DA968A1A1A786B000F6259 /* LaunchScreen.xib */; };
 		B4DA96981A1A786B000F6259 /* Dead_PixelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DA96971A1A786B000F6259 /* Dead_PixelTests.swift */; };
+		B4DA96A21A1AA24E000F6259 /* secondTV.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DA96A11A1AA24E000F6259 /* secondTV.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		B4DA96911A1A786B000F6259 /* Dead PixelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dead PixelTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4DA96961A1A786B000F6259 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4DA96971A1A786B000F6259 /* Dead_PixelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dead_PixelTests.swift; sourceTree = "<group>"; };
+		B4DA96A11A1AA24E000F6259 /* secondTV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = secondTV.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				B4DA96811A1A786A000F6259 /* AppDelegate.swift */,
 				B4DA96831A1A786A000F6259 /* ViewController.swift */,
+				B4DA96A11A1AA24E000F6259 /* secondTV.swift */,
 				B4DA96851A1A786A000F6259 /* Main.storyboard */,
 				B4DA96881A1A786A000F6259 /* Images.xcassets */,
 				B4DA968A1A1A786B000F6259 /* LaunchScreen.xib */,
@@ -214,6 +217,7 @@
 			files = (
 				B4DA96841A1A786A000F6259 /* ViewController.swift in Sources */,
 				B4DA96821A1A786A000F6259 /* AppDelegate.swift in Sources */,
+				B4DA96A21A1AA24E000F6259 /* secondTV.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +340,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "Dead Pixel/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -346,6 +351,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "Dead Pixel/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -405,6 +411,7 @@
 				B4DA969D1A1A786B000F6259 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B4DA969E1A1A786B000F6259 /* Build configuration list for PBXNativeTarget "Dead PixelTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +420,7 @@
 				B4DA96A01A1A786B000F6259 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
